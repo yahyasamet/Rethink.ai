@@ -1,3 +1,4 @@
 opencv-contrib-python
 mediapipe
 pyautogui
+ultralytics
