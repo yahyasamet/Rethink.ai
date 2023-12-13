@@ -4,7 +4,7 @@ from ultralytics import YOLO
 from math import hypot
 import time
 last_detection_time = time.time()
-detection_interval = 0.06  # 50 milliseconds
+detection_interval = 0.06  # 60 milliseconds
 
 cap = cv2.VideoCapture(0)
 cap.set(3, 800)  # Adjust width
